@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../fe08_JsElements"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../dvs13_TinyDB"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fe09_JsArrays"
+	}
+}
