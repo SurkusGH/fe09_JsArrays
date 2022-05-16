@@ -71,5 +71,35 @@ unshift.addEventListener('click', ()=> {
 })
 
 ///
+/// Example
+///
+
+const h2 = document.querySelector("#output")
+const obj = {
+    name: 'gytis',
+    age: 23,
+    canDrink: true,
+    howManyYearsCanHeDrinkFor(){
+        let years = this.age -20;
+        this.years = years
+    },
+    years: 0
+}
+obj.howManyYearsCanHeDrinkFor();
+console.log(obj);
+
+///
 /// Asignment_02
 ///
+
+///
+/// Asignment_03
+///
+
+///
+/// Example
+///
+
+const arrayCars = ['Car', 'Red'];
+const joinedArrayCars = arrayCars.join('.')
+console.log(joinedArrayCars)
